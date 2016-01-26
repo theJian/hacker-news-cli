@@ -1,0 +1,35 @@
+{
+  "name": "hacker-news-cli",
+  "version": "0.0.1",
+  "description": "Next generation hacker news client for hackers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theJian/hacker-news-cli.git"
+  },
+  "keywords": [
+    "hackers",
+    "news",
+    "hackers",
+    "cli"
+  ],
+  "author": "theJian",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/theJian/hacker-news-cli/issues"
+  },
+  "homepage": "https://github.com/theJian/hacker-news-cli#readme",
+  "preferGlobal": true,
+  "bin": {
+    "medium": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "inquirer": "^0.11.4",
+    "openurl": "^1.1.1",
+    "request": "^2.67.0"
+  }
+}
